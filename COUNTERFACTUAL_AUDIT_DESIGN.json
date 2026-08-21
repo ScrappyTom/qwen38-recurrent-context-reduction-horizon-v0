@@ -1,0 +1,56 @@
+{
+  "schema_version": "qwen38-construction-set-counterfactual-audit-design-v0",
+  "audit_id": "qwen38-construction-set-counterfactual-audit-v0",
+  "base_commit": "f52642ec85efdc8f7196515503a0312af7c38d78",
+  "branch": "codex/qwen38-construction-set-counterfactual-audit-v0",
+  "question": "Can the four exact governing documents coexist with exact candidate construction surfaces under the frozen 20,992-token prompt allowance and 4,096-token response reserve?",
+  "mode": "offline exact-tokenizer counterfactual only",
+  "measured_inference_authorized": false,
+  "gpu_use_authorized": false,
+  "model_calls": 0,
+  "base_packets": [
+    "runs/2026-08-20-sealed-horizon-run-v0/cells/01-s42-s1-recurrent-oldest-fit-horizon-v0/requests/call-12.json",
+    "runs/2026-08-20-sealed-horizon-run-v0/cells/02-s314159-s1-recurrent-oldest-fit-horizon-v0/requests/call-12.json"
+  ],
+  "held_fixed": {
+    "system_and_action_schema": "exact call-12 bytes",
+    "task_and_structural_outline": "exact call-12 bytes",
+    "context_tokens": 25088,
+    "response_reserve_tokens": 4096,
+    "maximum_prompt_tokens": 20992,
+    "chat_template": "exact parent non-thinking template",
+    "tokenizer": "exact qualified Qwen3.8 parent tokenizer projection"
+  },
+  "governing_set": [
+    "source-navigation RESULTS.md",
+    "source-navigation DIRECT_TRANSCRIPT_AUDIT.md",
+    "navigation-continuity RESULTS.md",
+    "navigation-continuity DIRECT_TRANSCRIPT_AUDIT.md"
+  ],
+  "target_groups": {
+    "governing_only": [],
+    "plus_r030_operational_model": ["R030"],
+    "plus_r031_phase_continuity": ["R031"],
+    "plus_r032_design_consequences": ["R032"],
+    "plus_r033_unknowns": ["R033"],
+    "plus_r031_r033_tail": ["R031", "R032", "R033"],
+    "plus_r030_r033_top_level_tail": ["R030", "R031", "R032", "R033"]
+  },
+  "surfaces": {
+    "historical_restore_only": "Restore one exact occurrence of every required object in the actual call-12 chronology; remove nothing else.",
+    "receipt_floor_then_restore": "Replace every non-required full result body that has positive exact-token savings with an exact receipt, then restore one exact occurrence of every required object.",
+    "fresh_phase": "Retain exact system/task messages and one exact action/result pair per required object; omit prior chronology. This is a lower-bound counterfactual, not an observed state."
+  },
+  "classification_rule": [
+    "If the full R030-R033 set fails even in fresh_phase, raw co-residency itself exceeds the envelope.",
+    "If it fits fresh_phase but fails receipt_floor_then_restore, receipt-bearing chronology is the remaining physical blocker.",
+    "If it fits receipt_floor_then_restore but fails historical_restore_only, additional exact-backed reduction could physically assemble the raw set.",
+    "Fit does not establish semantic sufficiency or predict model behavior."
+  ],
+  "custody": {
+    "measured_run_mutation": "forbidden",
+    "provider_chat_completion": "forbidden",
+    "counterfactual_packets": "materialize and hash",
+    "tokenizer_identity_and_lifecycle": "record"
+  }
+}
