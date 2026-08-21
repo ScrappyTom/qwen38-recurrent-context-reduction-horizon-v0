@@ -1,0 +1,11 @@
+{
+  "schema_version": "recurrent-horizon-offline-runtime-release-v0",
+  "runtime": "cpu-only tokenizer projection",
+  "measured_inference": false,
+  "chat_completions_called": false,
+  "server_processes_after": [],
+  "port": 18081,
+  "port_open_after": false,
+  "gpu_used": false,
+  "released": true
+}

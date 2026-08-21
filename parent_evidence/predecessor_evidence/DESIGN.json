@@ -1,0 +1,60 @@
+{
+  "schema_version": "context-reduction-pressure-boundary-design-v0",
+  "study_id": "qwen38-context-reduction-pressure-boundary-v0",
+  "question": "Can a deterministic reduction of older exact-backed context preserve the historically useful next decision and make its exact result deliverable with the frozen response reserve?",
+  "unit": "two decisions separated by one exact delivered result",
+  "historical_control": {
+    "new_model_calls": 0,
+    "evidence": "exact Prompt N, observed useful action X, exact result X, and exact parent capacity rejection for Prompt N plus X",
+    "not_model_behavior": "the unsent capacity-censored Prompt N+1"
+  },
+  "measured_factors": {
+    "seeds": [42, 314159],
+    "policies": ["oldest_fit_receipts_v0", "recent2_receipts_v0"],
+    "cells": 4
+  },
+  "primary_gates": [
+    "decision_preserved",
+    "result_absorbed"
+  ],
+  "secondary": [
+    "first_action_class",
+    "exact_tokens_removed",
+    "post_result_headroom_after_reserve",
+    "second_decision_made",
+    "second_action_class",
+    "reopen_of_demoted_result",
+    "mutation_or_submission_requested",
+    "admitted_candidate_effect_for_terminal_mutation_or_submission",
+    "provider_usage_and_time"
+  ],
+  "decision_equivalence": {
+    "primary": "canonical equality with historical action X",
+    "secondary": "one predeclared action per seed returning the same target byte span",
+    "post_hoc_equivalence": false
+  },
+  "held_fixed": [
+    "task and complete structural outline",
+    "world and starting candidate bytes",
+    "assistant action chronology",
+    "model weights and quantization",
+    "llama.cpp build and template",
+    "context and KV profile",
+    "sampler and per-cell seed",
+    "reasoning disabled",
+    "4096-token completion reserve",
+    "action schema and ordering",
+    "one attempt and zero retries"
+  ],
+  "maximum_measured_model_calls": 8,
+  "calls_per_cell": 2,
+  "retry_count": 0,
+  "scope_exclusions": [
+    "general context manager",
+    "semantic summarizer",
+    "host relevance judgment",
+    "model-controlled eviction",
+    "automatic phase controller",
+    "project governance change"
+  ]
+}

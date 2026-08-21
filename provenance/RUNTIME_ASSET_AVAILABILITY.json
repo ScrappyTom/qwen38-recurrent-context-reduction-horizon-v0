@@ -1,0 +1,15 @@
+{
+  "schema_version": "recurrent-horizon-runtime-asset-availability-v0",
+  "checked_before_authorization": true,
+  "hashes_recomputed_on_this_host": true,
+  "cuda_server": {
+    "path": "E:\\Model_Runtimes\\llama-b10434-win-cuda-13.3\\llama-server.exe",
+    "size_bytes": 9216,
+    "sha256": "5f1f831bc21dcbff4ca40e05cb59dbcbc0802d20b2046540bbbf3bd45cd61610"
+  },
+  "full_model": {
+    "path": "E:\\AI_Models\\AtomicChat__Qwen3.8-27B-GGUF__ca10ebceb188\\Qwen3.8-27B-AD-IQ2_S.gguf",
+    "size_bytes": 11141912032,
+    "sha256": "d416fa422c9035605c778f60d90a94b288c38b4f9ec2126b58ef938ce8d5f716"
+  }
+}

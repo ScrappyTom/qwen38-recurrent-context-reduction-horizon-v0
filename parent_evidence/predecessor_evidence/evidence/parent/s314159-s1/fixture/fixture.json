@@ -1,0 +1,1 @@
+{"candidate_dir":"candidate","fixture_id":"qwen38-large-world-local-operability-s1-s314159","fixture_version":1,"grader":{"script":"control/scope_observer.py","timeout_seconds":45},"limits":{"max_model_turns":24,"max_patch_bytes":180000,"max_read_bytes":12000},"schema_version":1,"task_file":"task.md","visible_checks":{}}
