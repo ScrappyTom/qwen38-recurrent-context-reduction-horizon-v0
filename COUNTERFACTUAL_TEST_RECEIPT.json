@@ -1,0 +1,39 @@
+{
+  "schema_version": "qwen38-construction-set-counterfactual-test-receipt-v0",
+  "focused_audit_tests": {
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_counterfactual*.py",
+      "-v"
+    ],
+    "tests": 5,
+    "passed": 5,
+    "failed": 0
+  },
+  "measured_run_seal": {
+    "passed": true,
+    "file_manifest_sha256": "42f75d96f09a5c2d9f4645abb7fcd05bd5d74a8fc3694f22a75f2da942eaceaa"
+  },
+  "complete_current_suite": {
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "tests": 35,
+    "passed": 34,
+    "failed": 1,
+    "expected_lifecycle_failure": "test_fresh_preflight_replay compares current post-run files with the pre-inference source lock and reports the same five declared post-run report mismatches already documented in RESULTS.md; packet and materialization replay still pass",
+    "new_audit_test_failures": 0
+  }
+}

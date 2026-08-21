@@ -8,6 +8,12 @@ Behaviorally, all 24 decisions remained acquisition decisions: 15 exact reopens 
 
 See [RESULTS.md](RESULTS.md), [DIRECT_TRANSCRIPT_AUDIT.md](DIRECT_TRANSCRIPT_AUDIT.md), and [POSTRUN_APPARATUS_NOTE.md](POSTRUN_APPARATUS_NOTE.md).
 
+## Offline construction-set counterfactual
+
+A no-inference follow-up reconstructed the late model-visible packets and measured exact raw co-residency under the same tokenizer and 4,096-token reserve. Restoring all four governing documents inside either accumulated call-12 chronology was infeasible even after every other positive-savings full result body was replaced by an exact receipt. In a fresh phase, however, the four documents plus R031–R033 fit with 2,446 tokens of headroom; adding R030 missed by only 69 tokens.
+
+This shows that the late trajectories had recoverability without a stable construction-ready resident set. It supports investigating chronology recomposition or a bounded construction phase before attributing the loop primarily to acquisition stopping. No model or GPU call was made. See [CONSTRUCTION_SET_COUNTERFACTUAL_AUDIT.md](CONSTRUCTION_SET_COUNTERFACTUAL_AUDIT.md).
+
 ## Fixed policy
 
 1. Use ordinary resident chronology while the prospective next request fits with the frozen 4,096-token reserve.

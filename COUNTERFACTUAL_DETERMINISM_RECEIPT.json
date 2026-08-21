@@ -1,0 +1,14 @@
+{
+  "schema_version": "qwen38-construction-set-counterfactual-determinism-v0",
+  "design_commit": "39ff888dab9459486a3f75d2536cb71ea45be5dd",
+  "runs": 2,
+  "result_sha256_first": "27b9778aaf38bf56831a936a14f756294c9bc557424f00574eada3f7acd009a1",
+  "result_sha256_second": "27b9778aaf38bf56831a936a14f756294c9bc557424f00574eada3f7acd009a1",
+  "result_equal": true,
+  "ordered_packet_hashes_sha256_first": "16f7d3e5de10a0d8177ecb31da0bc5e7a081d3448834ac509c76380e8d18daa8",
+  "ordered_packet_hashes_sha256_second": "16f7d3e5de10a0d8177ecb31da0bc5e7a081d3448834ac509c76380e8d18daa8",
+  "packets_equal": true,
+  "packet_count": 42,
+  "model_calls": 0,
+  "chat_completions": 0
+}
