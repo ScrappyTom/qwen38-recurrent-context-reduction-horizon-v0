@@ -1,7 +1,24 @@
 # Parent-project implications
 
-Status: **pre-run; no claim is ready to import.**
+This standalone experiment inherited the exact two recurrent-reduction trajectories from `ScrappyTom/qwen38-recurrent-context-reduction-v0@9a42b85b4d9fd25bd873d45c08a403c2ca1ff96e`. It did not modify that repository or `Custody_Cards_08.08.2026`.
 
-The inherited result is that minimum-necessary pressure-triggered exact-receipt substitution restored four of four post-call delivery boundaries across two seeds during a three-call continuation, while the model continued acquiring and did not mutate or submit.
+The conservative result potentially suitable for later import is:
 
-This successor asks only whether extending that same mechanism changes the observed trajectory. Any later statement appropriate for the parent project must remain bounded to this task, model, seeds, source surface, and horizon. This repository will not modify or import claims into Custody Cards automatically.
+> On two continuations from one task/world, pressure-triggered minimum-necessary substitution of older exact-backed result bodies with reopenable receipts preserved a fixed 4,096-token response reserve through 12 new decisions per seed. It resolved 17 recurrent result-delivery pressure events after the two starting treatments and enabled 22 new call results to cross later model boundaries. Neither trajectory mutated or submitted. One seed ended in an exact period-three reopen loop; the other showed repeated reopens but also lost one call to a frozen candidate-cursor defect.
+
+What this may inform:
+
+- exact external custody plus small receipts can sustain physical operability across repeated pressure;
+- recurring fault-in and re-demotion is a real lifecycle cost, not merely a theoretical recovery path;
+- a formal detector limited to two-key cycles can miss longer-period churn; and
+- preserving capacity and converging to construction are separate empirical problems.
+
+What remains unresolved:
+
+- whether either trajectory would eventually construct beyond 12 calls;
+- whether the additional reads were semantically necessary;
+- whether another mechanical selection rule would reduce reopen churn;
+- how the result transfers to another task, world, model, or representation; and
+- the behavioral result seed 314159 would have produced with a conforming candidate continuation cursor.
+
+No parent governance file is changed here. No general context manager, eviction order, pinning policy, semantic memory, or successor experiment is promoted or authorized.
